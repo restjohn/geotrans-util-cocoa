@@ -1,12 +1,16 @@
 use_frameworks!
 
 target 'GEOTRANSUtil_Example' do
+
   pod 'GEOTRANSUtil', :path => '../'
+  pod 'GEOTRANS', :path => '../../GEOTRANS'
 
   target 'GEOTRANSUtil_Tests' do
-    inherit! :search_paths
+      
+    inherit! :complete
 
     pod 'Specta'
     pod 'Expecta'
+    pod 'YLFileReader'
   end
 end

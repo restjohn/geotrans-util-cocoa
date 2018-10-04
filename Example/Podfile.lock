@@ -1,0 +1,37 @@
+PODS:
+  - Expecta (1.0.6)
+  - GEOTRANS (3.7)
+  - GEOTRANSUtil (0.1.0):
+    - GEOTRANS (~> 3.7)
+  - Specta (1.0.7)
+  - YLFileReader (0.0.2)
+
+DEPENDENCIES:
+  - Expecta
+  - GEOTRANS (from `../../GEOTRANS`)
+  - GEOTRANSUtil (from `../`)
+  - Specta
+  - YLFileReader
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+    - YLFileReader
+
+EXTERNAL SOURCES:
+  GEOTRANS:
+    :path: "../../GEOTRANS"
+  GEOTRANSUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  GEOTRANS: 798b90e6c0ef8d3ab9648f0b60830b63b1c52a66
+  GEOTRANSUtil: 932df24de8b21eabf38a2ba47239bcc632e58f14
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  YLFileReader: 9e0b48bdd954e18e030f3675e2a83b33f2c02b93
+
+PODFILE CHECKSUM: 3a7fc739d29a5657d2384c830df491f3ed20e28d
+
+COCOAPODS: 1.5.3

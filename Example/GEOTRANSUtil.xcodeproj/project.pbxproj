@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FF50FC13C934438C7FC7C34 /* Pods_GEOTRANSUtil_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933455E738889BA199622F5 /* Pods_GEOTRANSUtil_Tests.framework */; };
+		442D450B7BCF266AC651C40C /* Pods_GEOTRANSUtil_Example_GEOTRANSUtil_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECCA5379FF1FA4186A1F56C /* Pods_GEOTRANSUtil_Example_GEOTRANSUtil_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,8 +21,8 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7DD9F58321669327001B602B /* MSPMGRSHelperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9F58221669327001B602B /* MSPMGRSHelperSpec.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C53B04BD9C587EA3DAD00570 /* Pods_GEOTRANSUtil_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536E5DD70A8186FB7C9AE364 /* Pods_GEOTRANSUtil_Example.framework */; };
 /* End PBXBuildFile section */
@@ -38,10 +39,12 @@
 
 /* Begin PBXFileReference section */
 		04A5211F3406D16B49D4124A /* Pods-GEOTRANSUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOTRANSUtil_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GEOTRANSUtil_Example/Pods-GEOTRANSUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		19823C453FA258DCF9E57DFF /* Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests/Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3ECCA5379FF1FA4186A1F56C /* Pods_GEOTRANSUtil_Example_GEOTRANSUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEOTRANSUtil_Example_GEOTRANSUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		536E5DD70A8186FB7C9AE364 /* Pods_GEOTRANSUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEOTRANSUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		537B430E8E8099CE1DD56722 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		537B430E8E8099CE1DD56722 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CE8CE3FF89FCA6A9DD6EB3A /* Pods-GEOTRANSUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOTRANSUtil_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GEOTRANSUtil_Example/Pods-GEOTRANSUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5E73A97465FD1F7ED063687E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5E73A97465FD1F7ED063687E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GEOTRANSUtil_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GEOTRANSUtil_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +62,14 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DD9F58221669327001B602B /* MSPMGRSHelperSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPMGRSHelperSpec.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AF95756452DD61347E4929A /* Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests/Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		931B79D8701EF06A73629D59 /* Pods-GEOTRANSUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOTRANSUtil_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GEOTRANSUtil_Tests/Pods-GEOTRANSUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E5945B78337DD41DD707A3D3 /* Pods-GEOTRANSUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOTRANSUtil_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GEOTRANSUtil_Tests/Pods-GEOTRANSUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED1023294500BCCAB53623EE /* GEOTRANSUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GEOTRANSUtil.podspec; path = ../GEOTRANSUtil.podspec; sourceTree = "<group>"; };
+		ED1023294500BCCAB53623EE /* GEOTRANSUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GEOTRANSUtil.podspec; path = ../GEOTRANSUtil.podspec; sourceTree = "<group>"; };
 		F933455E738889BA199622F5 /* Pods_GEOTRANSUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEOTRANSUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +93,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				3FF50FC13C934438C7FC7C34 /* Pods_GEOTRANSUtil_Tests.framework in Frameworks */,
+				442D450B7BCF266AC651C40C /* Pods_GEOTRANSUtil_Example_GEOTRANSUtil_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				536E5DD70A8186FB7C9AE364 /* Pods_GEOTRANSUtil_Example.framework */,
 				F933455E738889BA199622F5 /* Pods_GEOTRANSUtil_Tests.framework */,
+				3ECCA5379FF1FA4186A1F56C /* Pods_GEOTRANSUtil_Example_GEOTRANSUtil_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,7 +165,7 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				7DD9F58221669327001B602B /* MSPMGRSHelperSpec.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -192,6 +198,8 @@
 				5CE8CE3FF89FCA6A9DD6EB3A /* Pods-GEOTRANSUtil_Example.release.xcconfig */,
 				E5945B78337DD41DD707A3D3 /* Pods-GEOTRANSUtil_Tests.debug.xcconfig */,
 				931B79D8701EF06A73629D59 /* Pods-GEOTRANSUtil_Tests.release.xcconfig */,
+				8AF95756452DD61347E4929A /* Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests.debug.xcconfig */,
+				19823C453FA258DCF9E57DFF /* Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -304,12 +312,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GEOTRANSUtil_Example/Pods-GEOTRANSUtil_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GEOTRANS/GEOTRANS.framework",
 				"${BUILT_PRODUCTS_DIR}/GEOTRANSUtil/GEOTRANSUtil.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GEOTRANS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GEOTRANSUtil.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +342,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GEOTRANSUtil_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -369,20 +379,26 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GEOTRANSUtil_Tests/Pods-GEOTRANSUtil_Tests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests/Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GEOTRANS/GEOTRANS.framework",
+				"${BUILT_PRODUCTS_DIR}/GEOTRANSUtil/GEOTRANSUtil.framework",
 				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
 				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
+				"${BUILT_PRODUCTS_DIR}/YLFileReader/YLFileReader.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GEOTRANS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GEOTRANSUtil.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLFileReader.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GEOTRANSUtil_Tests/Pods-GEOTRANSUtil_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests/Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -402,7 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				7DD9F58321669327001B602B /* MSPMGRSHelperSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +565,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5945B78337DD41DD707A3D3 /* Pods-GEOTRANSUtil_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8AF95756452DD61347E4929A /* Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -573,7 +589,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 931B79D8701EF06A73629D59 /* Pods-GEOTRANSUtil_Tests.release.xcconfig */;
+			baseConfigurationReference = 19823C453FA258DCF9E57DFF /* Pods-GEOTRANSUtil_Example-GEOTRANSUtil_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
